@@ -22,14 +22,16 @@ This model is built to classify and analyze different types of network activitie
 ## 🛠️ How to Run?
 - 👉 Step 1: Open the .ipynb (Jupyter Notebook) 📓
 - 👉 Step 2: Run each cell step-by-step ➡️ 1️⃣ 2️⃣ 3️⃣ ... sequentially!
-- 🛎️ Important: Do NOT skip any cells 🚫⏭️
+- 🛎️ Important: Do NOT skip any cells 🚫⏭️  
 Follow the order strictly for smooth execution 🧩
 
 ## 📦 Required Packages
 🧹 Install the required packages first:
 
+```
 #Run this cell to install required packages
 !pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
 ## 🧰 Libraries Used
 - **pandas**
