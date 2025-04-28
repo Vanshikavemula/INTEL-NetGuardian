@@ -1,95 +1,67 @@
-### 📡✨ Network Traffic & Email Classification Model
-## Network Traffic Classification 🚦 and Email Classification 📬 project!
+## 📡✨ Network Traffic & Email Classification Model
+### Network Traffic Classification 🚦 and Email Classification 📬 project!
 This model is built to classify and analyze different types of network activities and emails using synthetic datasets. 🧠
 
-📚 Datasets
+## 📚 Datasets: 
 🌐 Network Traffic Dataset
+
 🧭 Browsing
-
 🎥 Streaming
-
 📤 File Transfer
-
 📞 VoIP
-
 🚨 Attack
 
-📩 Email Classification Dataset
+## 📩 Email Classification Dataset:
+
 ✅ Normal
-
 📰 Newsletter
-
 💼 Business
-
 ⚠️ Suspicious
-
 ❌ Malicious
 
-🛠️ How to Run?
+## 🛠️ How to Run?
 👉 Step 1: Open the .ipynb (Jupyter Notebook) 📓
-
 👉 Step 2: Run each cell step-by-step ➡️ 1️⃣ 2️⃣ 3️⃣ ... sequentially!
-
 🛎️ Important:
-
 Do NOT skip any cells 🚫⏭️
-
 Follow the order strictly for smooth execution 🧩
 
-📦 Required Packages
+## 📦 Required Packages
 🧹 Install the required packages first:
 
 python
-Copy
-Edit
-# Run this cell to install required packages
+#Run this cell to install required packages
 !pip install pandas numpy matplotlib seaborn scikit-learn
-🧰 Libraries Used
-python
-Copy
-Edit
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from sklearn import tree
-from sklearn.preprocessing import StandardScaler
-import warnings
-warnings.filterwarnings('ignore')
-🖼️ Model Outputs
-📈 Confusion Matrices (to understand prediction vs truth)
 
-🌳 Decision Trees (visualization of how decisions are made)
+## 🧰 Libraries Used
+- **pandas**
+- **numpy**
+- **matplotlib**
+- **seaborn**
+- **sklearn**
 
-📃 Classification Reports (precision, recall, F1-score)
+## 🖼️ Model Outputs
 
-🧠 Analysis Reports (insights from feature behavior)
+📈 **Confusion Matrices**: to understand prediction vs truth
+🌳 **Decision Trees**: visualization of how decisions are made
+📃 **Classification Reports**: precision, recall, F1-score
+🧠 **Analysis Reports**: insights from feature behavior
+🔥 **Feature Importance Plots**: which features matter most!
 
-🔥 Feature Importance Plots (which features matter most!)
+## ⚙️ Key Features
 
-⚙️ Key Features
-📊 Data Preprocessing (cleaning and standardization)
+📊 **Data Preprocessing**: cleaning and standardization
+🛠️ **Model Building**: using Decision Tree Classifier 🌳
+🔍 **Training & Testing Split**: to evaluate model fairly
+🎯 **Performance Metrics**: to judge model performance
+📉 **Visual Insights**: plots and graphs
 
-🛠️ Model Building (using Decision Tree Classifier 🌳)
+## 🚀 Quick Start
 
-🔍 Training & Testing Split (to evaluate model fairly)
-
-🎯 Performance Metrics (to judge model performance)
-
-📉 Visual Insights (plots and graphs)
-
-🚀 Quick Start
 📥 Load the dataset.
-
 🧹 Preprocess the data (scaling/cleaning).
-
 🔥 Train Decision Tree Model.
-
 📊 Generate confusion matrices, decision tree plots, reports.
-
 📈 Analyze feature importance and outputs.
 
-(Just run each cell one after the other and enjoy the magic ✨!)
+*(Just run each cell one after the other and enjoy the magic ✨!)*
